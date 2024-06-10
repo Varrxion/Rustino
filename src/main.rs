@@ -1,3 +1,6 @@
+mod game;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Welcome to Rustino!");
+    game::event_loop::start();
 }
